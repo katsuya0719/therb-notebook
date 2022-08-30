@@ -5,8 +5,9 @@ THERB-notebookはTHERB(HASP)のシミュレーション結果をAPIで取得し�
 
 ## 環境設定(Windows PCの場合）    
 1. command promptを開き、ディレクトリ移動  
-2. pipenv shellを叩いて、仮想環境を構築  
-3. 以下のコマンドを叩く  
+2. pipenv syncを叩いて、仮想環境を構築   
+3. pipenv shellを叩いて、仮想環境を立ち上げる   
+4. 以下のコマンドを叩く  
 ```
 jupyter notebook
 ```
